@@ -56,7 +56,7 @@ echo
 # Required packages on Debian based systems
 deb_dependencies=(libmagic-dev libatlas-base-dev sox libsox-fmt-all build-essential)
 # Required packages on RPM based systems
-rpm_dependencies=(atlas-static file-libs sox sox-devel wget autoconf automake binutils bison flex gcc gcc-c++ glibc-devel libtool make pkgconf strace byacc ccache cscope ctags elfutils indent ltrace perf valgrind)
+rpm_dependencies=(blas-devel file-libs sox sox-devel wget autoconf automake binutils bison flex gcc gcc-c++ glibc-devel libtool make pkgconf strace byacc ccache cscope ctags elfutils indent ltrace perf valgrind)
 # Check dependencies
 if [ "${debian}" ]
 then
